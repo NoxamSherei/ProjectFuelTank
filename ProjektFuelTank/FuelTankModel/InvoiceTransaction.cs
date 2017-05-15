@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    public class WorkerUser : StandardUser
+    class InvoiceTransaction
     {
-        public string Permissions { get; set; }
+        public int InvoiceId;
+        public int TransactionId;
     }
 }

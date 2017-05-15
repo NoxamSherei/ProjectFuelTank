@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class Transactions
+    class CarWashReservation
     {
         public int Id;
         public int ClientId;
-        public decimal Price;
         public string Date;
-        public enum TransactionType { E95, E98, On, Lpg, StandardWash, WaxWash }
+        public enum CarWashType { StandardWash, WaxWash }
     }
 }

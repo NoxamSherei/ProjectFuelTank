@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    public class SaleRaport : Raport
+    class MonitoringReports
     {
-        public List<string> SelledFuel { get; set; }
+        public int Id;
+        public string Name;
+        public string DateFrom;
+        public string DateTo;
     }
 }
