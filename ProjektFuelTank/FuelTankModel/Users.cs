@@ -22,7 +22,7 @@ namespace FuelTankModel
         public string Login;
         //FK Adress
         public int adressId;
-        //Co to jest?
+        //Numer Domu
         public int HouseNo;
         //typ użytkownika
         public int userTypeId;

@@ -15,12 +15,12 @@ namespace FuelTankModel
         //Adress
         public string adressId;
         // User ID szefa
-        public int chiefId;
-        // Co to jest?
+        public int chefId;
+        // numer domu
         public int HouseNo;
-        // Co to jest?
+        // szerokość geograficzna
         public float lat;
-        // Co to jest?
+        // długość geograficzna
         public float lng;
         //Bank
         public string bankName;

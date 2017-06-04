@@ -13,7 +13,7 @@ namespace FuelTankModel
         //Data; do dnia
         public string dateComplex;
         public int date;
-        public string mouth;
+        public string month;
         public int day;
         //przypisani użytkownicy
         public int userId;
