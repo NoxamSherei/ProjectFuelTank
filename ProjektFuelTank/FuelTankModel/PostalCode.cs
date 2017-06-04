@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class MonitoringReports
+    class PostalCode
     {
-        public int Id;
-        public string Name;
-        public string DateFrom;
-        public string DateTo;
+        //pk kodu pocztowego
+        public int postalCodeId;
+        //Kod pocztowy
+        public string postalCodeName;
+
     }
 }

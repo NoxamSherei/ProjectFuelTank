@@ -21,12 +21,12 @@ namespace FuelTankDataAcsess.Data
         /// <summary>
         /// any entity to be persisted must me delcared here.
         /// </summary>
-        public DbSet<StandardUser> StandardUsers { get; set; }
+        /*public DbSet<StandardUser> StandardUsers { get; set; }
         public DbSet<WorkerUser> WorkerUsers { get; set; }
         public DbSet<ReservationWasher> ReservationWashers { get; set; }
         public DbSet<SaleRaport> SaleRaports { get; set; }
         public DbSet<ServicesCosts> ServicesCostss { get; set; }
-        public DbSet<Transactions> Transactions { get; set; }
-        public DbSet<FuelRaport> FuelRaports { get; set; }
+        public DbSet<Transaction> Transaction { get; set; }
+        public DbSet<FuelRaport> FuelRaports { get; set; }*/
     }
 }

@@ -6,17 +6,29 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class MonitoringData
+    class FuelMonitoringData
     {
-        public int Id;
+        //PK monitoringu
+        public int fuelMonitoringDataId;
+        //Poziom E95
         public float Fuel95Level;
+        //Poziom E98
         public float Fuel98Level;
+        //Poziom ON
         public float FuelONLevel;
+        //Poziom LPG
         public float LPGLevel;
+        //Temperatura E95
         public float Temperature95;
+        //Temperatura E98
         public float Temperature98;
+        //Temperatura ON
         public float TemperatureON;
+        //Temperatura LPG
         public float TemperatureLPG;
+        //Ciśnienie LPG
         public float PressureLPG;
+        //Data pomiaru
+        public string surveyDate;
     }
 }

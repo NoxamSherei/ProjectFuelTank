@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class MonitoringReportData
+    class HouseNumber
     {
-        public int ReportId;
-        public int DataId;
+        //PK - numer domu
+        public int houseNumberId;
+        //numer domu
+        public string houseNumberName;
     }
 }

@@ -8,7 +8,11 @@ namespace FuelTankModel
 {
     class InvoiceTransaction
     {
+        //PK operacji
+        public int invoiceTransactionId;
+        //Faktura
         public int InvoiceId;
+        //Tranzakcja
         public int TransactionId;
     }
 }

@@ -8,17 +8,36 @@ namespace FuelTankModel
 {
     class Users
     {
-        public int Id;
-        public string RegistrationTime;
-        public string Name;
-        public string Surname;
-        public string Street;
+        //PK uzytkownika
+        public int userId;
+        //Data Rejestracji
+        public string registrationTime;
+        //Imie
+        public string name;
+        //Nazwisko
+        public string surname;
+        //Email
+        public string Email;
+        //Login
+        public string Login;
+        //FK Adress
+        public int adressId;
+        //Co to jest?
         public int HouseNo;
-        public string PostalCode;
-        public string Place;
-        public string NIP;
-        public string PESEL;
-        public enum UserType { Client, Worker, Owner }
+        //typ użytkownika
+        public int userTypeId;
+        //Licznik punktów
         public int PointCount;
+        //NIP
+        public string NIP;
+        //PESEL
+        public string PESEL;
+        //KSR
+        public string KRS;
+        //Telefon
+        public string telephone;
+        //Fax
+        public string Fax;
+
     }
 }

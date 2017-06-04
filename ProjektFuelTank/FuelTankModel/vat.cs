@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class TransasctionReports
+    class Vat//Stawka vat
     {
-        public int Id;
-        public string Name;
-        public string DateFrom;
-        public string DateTo;
+        //PK
+        public int vatId;
+        //wartosc
+        public int vat;
     }
 }

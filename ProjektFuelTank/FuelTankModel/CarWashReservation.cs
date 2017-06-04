@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class CarWashReservation
+    class CarWashReservation//Rezerwacja do myjni
     {
-        public int Id;
-        public int ClientId;
-        public string Date;
-        public enum CarWashType { StandardWash, WaxWash }
+        //PK rejestracji
+        public int carWashId;
+        // id zamawiajacego klienta
+        public int clientId;
+        //DataRejesstracji
+        public string dateRegistration;
+        //DataRezerwacji
+        public string dateReservation;
+        //typ mycia
+        public int transactioTypeId;
     }
 }
