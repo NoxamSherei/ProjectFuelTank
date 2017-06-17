@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class PostalCode
+    public class PostalCode
     {
         //pk kodu pocztowego
         public int postalCodeId;

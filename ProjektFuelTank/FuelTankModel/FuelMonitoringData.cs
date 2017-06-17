@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class FuelMonitoringData
+    public class FuelMonitoringData
     {
         //PK monitoringu
         public int fuelMonitoringDataId;

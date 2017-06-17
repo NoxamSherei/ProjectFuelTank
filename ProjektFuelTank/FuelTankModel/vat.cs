@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class Vat//Stawka vat
+    public class Vat//Stawka vat
     {
         //PK
         public int vatId;

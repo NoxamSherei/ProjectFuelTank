@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class Users
+    public class User
     {
         //PK uzytkownika
         public int userId;
@@ -22,8 +22,6 @@ namespace FuelTankModel
         public string Login;
         //FK Adress
         public int adressId;
-        //Numer Domu
-        public int HouseNo;
         //typ użytkownika
         public int userTypeId;
         //Licznik punktów
@@ -38,6 +36,10 @@ namespace FuelTankModel
         public string telephone;
         //Fax
         public string Fax;
-
+        //Tranzakcje
+        public int TransactionID;
+        //Rezerwacje
+        public int CarWashID;
+        
     }
 }

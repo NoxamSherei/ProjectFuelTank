@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class UserType
+    public class UserType
     {
         //PK Usertype
         public int userTypeId;

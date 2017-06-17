@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class CompanyData//Tablica z danymmi o Firmie
+    public class CompanyData//Tablica z danymmi o Firmie
     {
         //PK Company
         public int companyId;
@@ -16,15 +16,15 @@ namespace FuelTankModel
         public string adressId;
         // User ID szefa
         public int chefId;
-        // numer domu
-        public int HouseNo;
         // szerokość geograficzna
-        public float lat;
+        public float Latitude;
         // długość geograficzna
-        public float lng;
+        public float Longitude;
         //Bank
         public string bankName;
         //nr Konta bankowego
         public string BankNumber;
+        //REGON
+        public string REGON;
     }
 }

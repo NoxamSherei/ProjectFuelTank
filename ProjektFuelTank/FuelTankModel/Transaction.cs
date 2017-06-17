@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class Transaction//Tranzakcja
+    public class Transaction//Tranzakcja
     {
         //PK Tranzakcji
         public int TransactionId;
@@ -15,7 +15,7 @@ namespace FuelTankModel
         //Cena za całosc Brutto
         public string costBrutto;
         //Ilosc (np. 20litrow)
-        public string quantity;
+        public string quality;
         //Data operacji
         public string transactionDate;
         //FK typ Operacji

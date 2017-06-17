@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class Adress
+    public class Adress
     {
         //PK- id Adress
         public int adressId;

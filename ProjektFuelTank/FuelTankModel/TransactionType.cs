@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class TransactionType//Typy tranzakcji
+    public class TransactionType//Typy tranzakcji
     {
         //PK Transaction type
         public int transactioTypeId;

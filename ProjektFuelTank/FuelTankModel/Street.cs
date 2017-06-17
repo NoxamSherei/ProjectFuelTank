@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class Street
+    public class Street
     {
         //PK ID ulicy
         public int streetId;

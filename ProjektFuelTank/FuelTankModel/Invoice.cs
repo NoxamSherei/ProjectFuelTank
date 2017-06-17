@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class Invoice//Faktura
+    public class Invoice//Faktura
     {
         //PK Faktury
         public int invoiceId;

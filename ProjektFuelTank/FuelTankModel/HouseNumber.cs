@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    class HouseNumber
+    public class HouseNumber
     {
         //PK - numer domu
         public int houseNumberId;
