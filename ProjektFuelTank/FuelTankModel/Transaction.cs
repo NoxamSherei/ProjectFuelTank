@@ -11,14 +11,14 @@ namespace FuelTankModel
         //PK Tranzakcji
         public int TransactionId;
         //numer tranzakcji
-        public int userTransactionId;
+        public int UserTransactionId;
         //Cena za całosc Brutto
-        public string costBrutto;
+        public string CostBrutto;
         //Ilosc (np. 20litrow)
-        public string quality;
+        public string Quality;
         //Data operacji
-        public string transactionDate;
+        public string TransactionDate;
         //FK typ Operacji
-        public int transactionTypeId;
+        public int TransactionTypeId;
     }
 }

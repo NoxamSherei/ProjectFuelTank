@@ -9,8 +9,8 @@ namespace FuelTankModel
     public class Vat//Stawka vat
     {
         //PK
-        public int vatId;
+        public int VatId;
         //wartosc
-        public int vat;
+        public int VatCout;
     }
 }

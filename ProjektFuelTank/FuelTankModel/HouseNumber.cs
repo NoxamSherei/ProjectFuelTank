@@ -9,8 +9,8 @@ namespace FuelTankModel
     public class HouseNumber
     {
         //PK - numer domu
-        public int houseNumberId;
+        public int HouseNumberId;
         //numer domu
-        public string houseNumberName;
+        public string HouseNumberName;
     }
 }

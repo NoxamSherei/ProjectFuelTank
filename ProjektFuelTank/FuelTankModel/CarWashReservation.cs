@@ -9,12 +9,12 @@ namespace FuelTankModel
     public class CarWashReservation//Rezerwacja do myjni
     {
         //PK rejestracji
-        public int carWashId;
+        public int CarWashId;
         //DataRejesstracji
-        public string dateRegistration;
+        public string DateRegistration;
         //DataRezerwacji
-        public string dateReservation;
+        public string DateReservation;
         //typ mycia
-        public int transactioTypeId;
+        public int TransactioTypeId;
     }
 }

@@ -9,7 +9,7 @@ namespace FuelTankModel
     public class FuelMonitoringData
     {
         //PK monitoringu
-        public int fuelMonitoringDataId;
+        public int FuelMonitoringDataId;
         //Poziom E95
         public float Fuel95Level;
         //Poziom E98
@@ -29,6 +29,6 @@ namespace FuelTankModel
         //Ciśnienie LPG
         public float PressureLPG;
         //Data pomiaru
-        public string surveyDate;
+        public string SurveyDate;
     }
 }

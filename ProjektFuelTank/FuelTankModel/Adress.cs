@@ -9,14 +9,14 @@ namespace FuelTankModel
     public class Adress
     {
         //PK- id Adress
-        public int adressId;
+        public int AdressId;
         //Fk- Miasto
-        public int townId;
+        public int TownId;
         //Kod pocztowy
-        public int postalCodeID;
+        public int PostalCodeId;
         //FK- Ulica
-        public int streetId;
+        public int StreetId;
         //Fk- Numer mieszkania
-        public int houseNumberId;
+        public int HouseNumberId;
     }
 }

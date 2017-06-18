@@ -9,19 +9,19 @@ namespace FuelTankModel
     public class CompanyData//Tablica z danymmi o Firmie
     {
         //PK Company
-        public int companyId;
+        public int CompanyId;
         //Nazwafirmy
-        public string companyName;
+        public string CompanyName;
         //Adress
-        public string adressId;
+        public string CdressId;
         // User ID szefa
-        public int chefId;
+        public int ChefId;
         // szerokość geograficzna
         public float Latitude;
         // długość geograficzna
         public float Longitude;
         //Bank
-        public string bankName;
+        public string BankName;
         //nr Konta bankowego
         public string BankNumber;
         //REGON
