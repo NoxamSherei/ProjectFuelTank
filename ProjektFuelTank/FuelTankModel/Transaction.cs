@@ -8,17 +8,11 @@ namespace FuelTankModel
 {
     public class Transaction//Tranzakcja
     {
-        //PK Tranzakcji
-        public int TransactionId;
-        //numer tranzakcji
-        public int UserTransactionId;
-        //Cena za całosc Brutto
-        public string CostBrutto;
-        //Ilosc (np. 20litrow)
-        public string Quality;
-        //Data operacji
-        public string TransactionDate;
-        //FK typ Operacji
-        public int TransactionTypeId;
+        public int Id { get; set; }
+        public int UserId { get; set; }
+        public string CostBrutto { get; set; }
+        public string Quality { get; set; }
+        public string Date { get; set; }
+        public int TransactionTypeId { get; set; }
     }
 }

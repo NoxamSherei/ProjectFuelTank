@@ -31,7 +31,7 @@ namespace FuelTankDataAcsess.Data
         public DbSet<Reward> Rewards { get; set; }
         public DbSet<Street> Streets { get; set; }
         public DbSet<Town> Towns { get; set; }
-        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }    
         public DbSet<TransactionType> TransactionTypes { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<UserType> UserTypes { get; set; }

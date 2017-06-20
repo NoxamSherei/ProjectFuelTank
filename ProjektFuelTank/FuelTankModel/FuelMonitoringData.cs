@@ -8,27 +8,16 @@ namespace FuelTankModel
 {
     public class FuelMonitoringData
     {
-        //PK monitoringu
-        public int FuelMonitoringDataId;
-        //Poziom E95
-        public float Fuel95Level;
-        //Poziom E98
-        public float Fuel98Level;
-        //Poziom ON
-        public float FuelONLevel;
-        //Poziom LPG
-        public float LPGLevel;
-        //Temperatura E95
-        public float Temperature95;
-        //Temperatura E98
-        public float Temperature98;
-        //Temperatura ON
-        public float TemperatureON;
-        //Temperatura LPG
-        public float TemperatureLPG;
-        //Ciśnienie LPG
-        public float PressureLPG;
-        //Data pomiaru
-        public string SurveyDate;
+        public int Id { get; set; }
+        public float Fuel95Level { get; set; }
+        public float Fuel98Level { get; set; }
+        public float FuelONLevel { get; set; }
+        public float LPGLevel { get; set; }
+        public float Temperature95 { get; set; }
+        public float Temperature98 { get; set; }
+        public float TemperatureON { get; set; }
+        public float TemperatureLPG { get; set; }
+        public float PressureLPG { get; set; }
+        public string SurveyDate { get; set; }
     }
 }

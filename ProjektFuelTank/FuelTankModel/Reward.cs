@@ -8,10 +8,9 @@ namespace FuelTankModel
 {
     public class Reward
     {
-        //id
-        public int RewardID;
-        public string RevardName;
-        public int PointsCost;
-        public string RevardDescribe;
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public int PointsCost { get; set; }
+        public string Describe { get; set; }
     }
 }

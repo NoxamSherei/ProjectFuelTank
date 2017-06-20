@@ -8,23 +8,14 @@ namespace FuelTankModel
 {
     public class CompanyData//Tablica z danymmi o Firmie
     {
-        //PK Company
-        public int CompanyId;
-        //Nazwafirmy
-        public string CompanyName;
-        //Adress
-        public string CdressId;
-        // User ID szefa
-        public int ChefId;
-        // szerokość geograficzna
-        public float Latitude;
-        // długość geograficzna
-        public float Longitude;
-        //Bank
-        public string BankName;
-        //nr Konta bankowego
-        public string BankNumber;
-        //REGON
-        public string REGON;
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string AdressId { get; set; }
+        public int ChefId { get; set; }
+        public float Latitude { get; set; }
+        public float Longitude { get; set; }
+        public string BankName { get; set; }
+        public string BankNumber { get; set; }
+        public string REGON { get; set; }
     }
 }

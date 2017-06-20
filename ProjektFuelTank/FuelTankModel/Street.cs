@@ -8,9 +8,7 @@ namespace FuelTankModel
 {
     public class Street
     {
-        //PK ID ulicy
-        public int StreetId;
-        //Nazwa ulicy
-        public string StreetName;
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

@@ -8,15 +8,12 @@ namespace FuelTankModel
 {
     public class DayWorkerGraphic
     {
-        //PK Grafiku
-        public int DayworkerGraphicId;
-        //zmiany userID
-        public int PierwszaZmiana;
-        public int DrugaZmiana;
-        public int TrzeciaZmiana;
-        //Data
-        public int Day;
-        public int Miesiac;
-        public int Rok;
+        public int Id { get; set; }
+        public int PierwszaZmiana { get; set; }
+        public int DrugaZmiana { get; set; }
+        public int TrzeciaZmiana { get; set; }
+        public int Day { get; set; }
+        public int Miesiac { get; set; }
+        public int Rok { get; set; }
     }
 }

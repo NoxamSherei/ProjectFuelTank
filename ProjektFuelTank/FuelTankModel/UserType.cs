@@ -8,46 +8,25 @@ namespace FuelTankModel
 {
     public class UserType
     {
-        //PK Usertype
-        public int UserTypeId;
-        //nazwa typu uzytkownika
-        public string UserTypeName;
+        public int Id { get; set; }
+        public string PremisionName { get; set; }
         #region Uprawnienia
-        //PROFIL
-        //Może zarzacac profilem innych;
-        public bool ProfilManage;
-        
-        //GRAFIK
-        //Może zarzadzać grafikiem
-        public bool GraphicManage;
-        //Może wpisac sie na grafik
-        public bool GraphicRegister;
-        
-        //PUNKTACJA
-        //Może ustawiać punktacje
-        public bool GointsManager;
+        public bool IsThemselfProfilManage { get; set; }
+        public bool IsOtherProfilManage { get; set; }
+        public bool IsFuelCostManage { get; set; }
+        public bool IsWashCostManage { get; set; }
+        public bool IsGraphicManage { get; set; }
+        public bool IsPointsManager { get; set; }
 
-        //MYJNIA
-        //Może sie rejestrować na Myjnie
-        public bool CarWashRegister;
-        
-        //PALIWO
-        //moze zobaczyć ceny paliwa
-        public bool FuelCostChecking;
-        //może zobaczyć stan Paliwa
-        public bool FuelSurvey;
+        public bool IsGraphicRegister { get; set; }
+        public bool IsCarWashRegister { get; set; }
 
-        //RAPORTY
-        //Może wystawić Raport
-        public bool CanSendTransactionRaport;
-        //Może przegladac raporty
-        public bool CheckRaports;
+        public bool IsFuelCostChecking { get; set; }
+        public bool IsFuelSurveyCheking { get; set; }
 
-        //ZARZADZANIE CENAMI
-        //może Ustawiać ceny Paliwa
-        public bool FuelCostManage;
-        //może zmieniać ceny Myjni
-        public bool WashCostManage;
+        public bool IsCreateTransactionRaport { get; set; }
+        public bool IsCreateFuelRaport { get; set; }
+        public bool IsCheckRaports { get; set; }
         #endregion
     }
 }

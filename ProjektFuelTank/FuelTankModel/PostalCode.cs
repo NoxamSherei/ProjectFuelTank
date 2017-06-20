@@ -8,10 +8,8 @@ namespace FuelTankModel
 {
     public class PostalCode
     {
-        //pk kodu pocztowego
-        public int PostalCodeId;
-        //Kod pocztowy
-        public string PostalCodeName;
+        public int Id { get; set; }
+        public string PostalNumber { get; set; }
 
     }
 }

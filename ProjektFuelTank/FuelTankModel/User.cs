@@ -9,40 +9,24 @@ namespace FuelTankModel
 {
     public class User
     {
-        //PK uzytkownika
-        public int UserId;
-        //Data Rejestracji
-        public string RegistrationTime;
-        //Imie
-        public string Name;
-        //Nazwisko
-        public string Surname;
-        //Email
-        public string Email;
-        //Login
-        public string Login;
-        //FK Adress
-        public int AdressId;
-        //typ użytkownika
-        public int UserTypeId;
-        //Licznik punktów
-        public int PointCount;
-        //NIP
+        public int UserId { get; set; }
+        public string RegistrationTime { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string Email { get; set; }
+        public string Login { get; set; }
+        public int AdressId { get; set; }
+        public int UserTypeId { get; set; }
+        public int PointCount { get; set; }
         [MaxLength(10)]
-        public string NIP;
-        //PESEL
+        public string NIP { get; set; }
         [MaxLength(11)]
-        public string PESEL;
-        //KSR
-        public string KRS;
-        //Telefon
-        public string Telephone;
-        //Fax
-        public string Fax;
-        //Tranzakcje
-        public int TransactionID;
-        //Rezerwacje
-        public int CarWashID;
-        
+        public string PESEL { get; set; }
+        public string KRS { get; set; }
+        public string Telephone { get; set; }
+        public string Fax { get; set; }
+        public int TransactionID { get; set; }
+        public int CarWashID { get; set; }
+
     }
 }

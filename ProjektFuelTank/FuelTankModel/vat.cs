@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace FuelTankModel
 {
-    public class Vat//Stawka vat
+    public class Vat
     {
-        //PK
-        public int VatId;
-        //wartosc
-        public int VatCout;
+        public int Id { get; set; }
+        public int Count { get; set; }
     }
 }
